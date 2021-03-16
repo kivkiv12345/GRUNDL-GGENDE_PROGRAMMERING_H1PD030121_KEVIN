@@ -1,0 +1,10 @@
+Hvad betyder det? Ud fra jeres intuition beskriv: 
+	Hvad er formålet med dokumentation? 
+		- Det gør din kode lettere at forstå og mere tilgængelig for andre der skal bruge det. Dette gælder også for en selv da man kan komme tilbage fra fx ferie og have tabt tråden. 
+	Hvordan vil I gribe det an hvis i skulle beskrive et program og begrunde jeres valg? 
+		- Afhængig af målgruppe; kan man beskrive programmet i form af README fil til manual. 
+		- Skrive kommentarer løbende i koden. 
+	Hvilke værktøjer vil I bruge? 
+		- README filer egner sig typisk bedst til at blive skrevet i simple tekstredigeringsprogrammer såsom Notepad. 
+
+Af Kevin, Rasmus 
