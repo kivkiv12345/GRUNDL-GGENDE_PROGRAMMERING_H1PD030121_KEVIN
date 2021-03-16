@@ -1,0 +1,26 @@
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.exe
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.deps.json
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.runtimeconfig.json
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.runtimeconfig.dev.json
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.dll
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.pdb
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.csprojAssemblyReference.cache
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.csproj.CoreCompileInputs.cache
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.AssemblyInfoInputs.cache
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.AssemblyInfo.cs
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.dll
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.pdb
+C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.genruntimeconfig.cache
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.exe
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.deps.json
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.runtimeconfig.json
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.runtimeconfig.dev.json
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.dll
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.pdb
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.csprojAssemblyReference.cache
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.AssemblyInfo.cs
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.dll
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.pdb
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.genruntimeconfig.cache
