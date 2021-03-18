@@ -1,0 +1,13 @@
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\obj\Debug\netcoreapp3.1\ReactionTime.csprojAssemblyReference.cache
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\obj\Debug\netcoreapp3.1\ReactionTime.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\obj\Debug\netcoreapp3.1\ReactionTime.AssemblyInfo.cs
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\obj\Debug\netcoreapp3.1\ReactionTime.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\bin\Debug\netcoreapp3.1\ReactionTime.exe
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\bin\Debug\netcoreapp3.1\ReactionTime.deps.json
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\bin\Debug\netcoreapp3.1\ReactionTime.runtimeconfig.json
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\bin\Debug\netcoreapp3.1\ReactionTime.runtimeconfig.dev.json
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\bin\Debug\netcoreapp3.1\ReactionTime.dll
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\bin\Debug\netcoreapp3.1\ReactionTime.pdb
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\obj\Debug\netcoreapp3.1\ReactionTime.dll
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\obj\Debug\netcoreapp3.1\ReactionTime.pdb
+C:\Users\kevin\OneDrive\Skrivebord\OneDrive - Bronderslev Kommune Skoler\Tech College\H1\Grundlæggende Programmering\ReactionTime\ReactionTime\obj\Debug\netcoreapp3.1\ReactionTime.genruntimeconfig.cache
