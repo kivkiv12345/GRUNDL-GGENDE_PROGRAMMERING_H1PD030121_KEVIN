@@ -274,7 +274,7 @@ namespace GPOpgaver
             }
 
             // Return false if we manage to iterate over the entire string without finding all requirements.
-            return false; ;
+            return false;
         }
     }
 }
