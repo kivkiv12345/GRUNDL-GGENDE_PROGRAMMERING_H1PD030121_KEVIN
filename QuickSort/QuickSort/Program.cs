@@ -105,12 +105,16 @@ namespace QuickSort
             // Quicksort algorithm has been converted from C++ and expanded from https://www.geeksforgeeks.org/quick-sort/
 
             int[] arr = { 10, 7, 8, 9, 1, 5 };
+            Console.WriteLine($"Unsorted array: [{string.Join(", ", arr)}]");
             quickSort(arr, 0, arr.Length - 1);
-            Console.WriteLine($"Sorted array: [{string.Join(", ", arr)}");
+            Console.WriteLine($"Sorted array: [{string.Join(", ", arr)}]");
 
             string[] strarr = { "hej", "hvadså", "gårdet", "kandu", "ikkenej", };
+            Console.WriteLine($"Unsorted string array: [{string.Join(", ", strarr)}]");
             quickSort(strarr, 0, strarr.Length - 1);
             Console.WriteLine($"Sorted string array: [{string.Join(", ", strarr)}]");
+
+            Console.ReadLine();
         }
     }
 }
