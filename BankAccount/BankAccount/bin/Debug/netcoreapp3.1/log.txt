@@ -1,0 +1,18 @@
+
+Log Entry : 10:39:51 19. april 2021
+  :
+  :Account created with 300 funds.
+  :Balance is now 300
+-------------------------------
+
+Log Entry : 10:39:53 19. april 2021
+  :
+  :200 withdrawn from account.
+  :Balance is now 100
+-------------------------------
+
+Log Entry : 10:39:56 19. april 2021
+  :
+  :100 deposited into account.
+  :Balance is now 200
+-------------------------------
