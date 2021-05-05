@@ -12,56 +12,59 @@ namespace Rap_Finands
     **/
     class Program
     {
-        public static string reginummer = "4242";
-        public static string datafil = "bank.json"; //Her ligger alt data i
+        public const string reginummer = "4242";
+        public static HashSet<string> kontonumre = new HashSet<string>();  // Will contain all account. Allows us to check for duplicates.
+        public static string datafil = Directory.GetCurrentDirectory() + "/bank.json"; //Her ligger alt data i
         public static List<Konto> konti;
-        public static float belob;
         static void Main(string[] args)
         {
             Console.WriteLine("Henter alt kontodata");
-            
-            hent();
-            if (konti.Count == 0) {
-                var k = lavKonto();
-                k.ejer = "Ejvind Møller";
+
+            Hent(); // Loads accounts into 'konti'
+            if (konti.Count == 0)
+            {
+                Konto k = new Konto("Ejvind Møller");
                 konti.Add(k);
 
-                GemTrans(k,"Opsparing",100);
-                GemTrans(konti[0],"Vandt i klasselotteriet",1000);
-                GemTrans(konti[0],"Hævet til Petuniaer",-50);
-                
-                gem();
-            } else {
+                GemTrans(k, "Opsparing", 100);
+                GemTrans(konti[0], "Vandt i klasselotteriet", 1000);
+                GemTrans(konti[0], "Hævet til Petuniaer", -50);
+
+                GemTilFil();
             }
-            dos_start();
-            
+            DosStart();
+
         }
-        static void dos_start() {
+        static void DosStart()
+        {
             Console.WriteLine("Velkommen til Rap Finans af Konrad Sommer");
             Console.WriteLine("Hvad vil du gøre nu?");
-            
+
             bool blivVedogved = true;
-            while (blivVedogved) {
+            while (blivVedogved)
+            {
                 Console.WriteLine("1. Opret ny konto");
                 Console.WriteLine("2. Hæv/sæt ind");
                 Console.WriteLine("3. Se en oversigt");
                 Console.WriteLine("0. Afslut");
 
                 Console.Write(">");
-                string valg1 = Console.ReadLine();
-                int valg = int.Parse(valg1+1);
-                
-                switch (valg) {
-                    case 1:
-                        dos_opretKonto();
+                string valg = Console.ReadLine();
+
+                // Changed switch/case to switch on string input, as to contain all exception handling in the default case. 
+
+                switch (valg)
+                {
+                    case "1":
+                        DosOpretKonto();
                         break;
-                    case 2:
-                        dos_opretTransaktion(dos_findKonto());
+                    case "2":
+                        DosOpretTransaktion(DosFindKonto());
                         break;
-                    case 3:
-                        dos_udskrivKonto(dos_findKonto());
+                    case "3":
+                        DosUdskrivKonto(DosFindKonto());
                         break;
-                    case 0:
+                    case "0":
                         blivVedogved = false;
                         break;
                     default:
@@ -73,117 +76,149 @@ namespace Rap_Finands
             }
             Console.Clear();
         }
-        static Konto dos_findKonto() 
+        static Konto DosFindKonto()
         {
-            for (var i = 1; i <= konti.Count;i++)
+            for (int i = 1; i <= konti.Count; i++)
             {
-                Console.WriteLine(i+". "+konti[i-1].registreringsnr+" "+konti[i-1].kontonr+" ejes af "+konti[i-1].ejer);
+                Konto konto = konti[i - 1];  // Store the current account to ease readability of the string.
+                Console.WriteLine(i + ". " + konto.registreringsnr + " " + konto.kontonr + " ejes af " + konto.ejer);
             }
-            Console.WriteLine("Vælg et tal fra 1 til "+konti.Count);
+            Console.WriteLine($"Skriv et tal fra 1 til {konti.Count}, for at vælge en konto.");
             Console.Write(">");
-            int tal = int.Parse(Console.ReadLine());
-            if (tal < 1 || tal > konti.Count) {
+            int tal = 0;
+            while (true)
+            {
+                try
+                {
+                    tal = int.Parse(Console.ReadLine());
+                    break;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Ugyldigt tal! Prøv igen: ");
+                }
+            }
+            
+            if (tal < 1 || tal > konti.Count)
+            {
                 Console.WriteLine("Ugyldigt valg");
                 Console.Clear();
                 return null;
             }
-            return konti[tal-1];
+            return konti[tal - 1];
         }
-        static void dos_opretTransaktion(Konto k) 
+        static void DosOpretTransaktion(Konto k)
         {
-            Console.Write("Tekst: ");
+            Console.Write("Indtast transaktion beskrivelse: ");
             string tekst = Console.ReadLine();
-            Console.Write("Beløb: ");
-            float amount = float.Parse(Console.ReadLine());
-            if (GemTrans(k,tekst,amount)) {
-                Console.WriteLine("Transkationen blev gemt. Ny saldo på kontoen: "+findSaldo(k));
-                gem();
-            } else
+            Console.Write("Indtast transaktion beløb: ");
+            float amount = 0;
+            try
+            {
+                amount = float.Parse(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ugyldigt tal!");
+                return;
+            }
+            
+            if (GemTrans(k, tekst, amount))
+            {
+                Console.WriteLine("Transkationen blev gemt. Ny saldo på kontoen: " + FindSaldo(k));
+                GemTilFil();
+            }
+            else
                 Console.WriteLine("Transaktionen kunne ikke gemmes (Der var sikkert ikke penge nok på kontoen)");
         }
-        static Konto dos_opretKonto() 
+        static Konto DosOpretKonto()
         {
-            Konto k = lavKonto();
             Console.Write("Navn på kontoejer:");
-            k.ejer = Console.ReadLine();
+            Konto k = new Konto(Console.ReadLine());
+            
             Console.WriteLine("Konto oprettet!");
             konti.Add(k);
-            gem();
+            GemTilFil();
             return k;
-        }
-        public static Konto lavKonto() {
-            return new Konto();
         }
 
         /*
         fed metode til at lave helt nye kontonumre ~Konrad
         */
-        public static string lavEtKontoNummer() {
+        public static string LavEtKontoNummer()
+        {
             Random tilfael = new Random();
-            string nr = tilfael.Next(1,9).ToString();
-            for (var i = 1; i <= 9; i++) {
-                nr = nr + tilfael.Next(0,9).ToString();
+            string nr = tilfael.Next(1, 9).ToString();
+            for (int i = 1; i <= 9; i++)
+            {
+                nr = nr + tilfael.Next(0, 9).ToString();
                 if (i == 3) nr = nr + " ";
                 if (i == 6) nr = nr + " ";
             }
+            if (kontonumre.Contains(nr)) return LavEtKontoNummer();  // Avoid generating duplicate numbers.
             return nr;
         }
-        static void dos_udskrivKonti() {
-            Console.WriteLine("================");
-            foreach (Konto k in konti) {
-                Console.WriteLine(k.registreringsnr+" "+k.kontonr+" ejes af "+k.ejer);
-            }
-        }
-        static void dos_udskrivKonto(Konto k) {
-            Console.WriteLine("Konto for "+k.ejer+": "+k.registreringsnr+" "+k.kontonr);
+        static void DosUdskrivKonto(Konto k)
+        {
+            Console.WriteLine("Konto for " + k.ejer + ": " + k.registreringsnr + " " + k.kontonr);
             Console.WriteLine("================");
             Console.WriteLine("Tekst\t\t\t\tBeløb\t\tSaldo");
-            foreach (Transaktion t in k.transaktioner) {
-                Console.Write(t.tekst+"\t\t\t\t");
-                Console.Write(t.amount+"\t\t");
+            foreach (Transaktion t in k.transaktioner)
+            {
+                Console.Write(t.tekst + "\t\t\t\t");
+                Console.Write(t.amount + "\t\t");
                 Console.WriteLine(t.saldo);
             }
             Console.WriteLine("================\n");
 
         }
-        
-        public static bool GemTrans(Konto konto, string tekst, float beløb) {
-            var saldo = findSaldo(konto);
+
+        public static bool GemTrans(Konto konto, string tekst, float beløb)
+        {
+            float saldo = FindSaldo(konto);
             if (saldo + beløb < 0) return false;
-            var t = new Transaktion();
+            Transaktion t = new Transaktion();
             t.tekst = tekst;
-            t.amount = belob;
+            t.amount = beløb;
             t.saldo = t.amount + saldo;
             t.dato = DateTime.Now;
-            
+
             konto.transaktioner.Add(t);
             return true;
         }
-        public static float findSaldo(Konto k) {
+        public static float FindSaldo(Konto k)
+        {
             Transaktion seneste = new Transaktion();
             DateTime senesteDato = DateTime.MinValue;
-            foreach(var t in k.transaktioner) {
-                if (t.dato > senesteDato) {
+            foreach (Transaktion t in k.transaktioner)
+            {
+                if (t.dato > senesteDato)
+                {
                     senesteDato = t.dato;
                     seneste = t;
                 }
             }
             return seneste.saldo;
         }
-        public static void gem() 
+        public static void GemTilFil()
         {
-            File.WriteAllText(datafil,JsonConvert.SerializeObject(konti));
-            File.Delete(datafil); //Fjern debug fil
+            File.WriteAllText(datafil, JsonConvert.SerializeObject(konti));
+            // Removed deletion of the .json file.
         }
-        public static void hent()
+        public static void Hent()
         {
-            datafil = "debug_bank.json"; //Debug - brug en anden datafil til debug ~Konrad
-            if (File.Exists(datafil)) {
+            if (File.Exists(datafil))
+            {
                 string json = File.ReadAllText(datafil);
                 konti = JsonConvert.DeserializeObject<List<Konto>>(json);
-            } else {
+            }
+            else
+            {
                 konti = new List<Konto>();
             }
+
+            foreach (Konto konto in konti)  // Add accounts to a HashSet, such that we can check for duplicates.
+                kontonumre.Add(konto.kontonr);
         }
     }
 }

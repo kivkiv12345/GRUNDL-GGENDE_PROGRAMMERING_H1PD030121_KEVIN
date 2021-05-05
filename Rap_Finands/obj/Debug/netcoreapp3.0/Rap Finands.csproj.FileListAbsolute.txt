@@ -11,3 +11,19 @@ c:\Users\sinb\Documents\Opgave med rap finands\obj\Debug\netcoreapp3.0\Rap Finan
 C:\Users\sinb\Documents\Opgave med rap finands\obj\Debug\netcoreapp3.0\Rap Finands.csproj.CopyComplete
 c:\Users\sinb\Documents\Opgave med rap finands\obj\Debug\netcoreapp3.0\Rap Finands.dll
 c:\Users\sinb\Documents\Opgave med rap finands\obj\Debug\netcoreapp3.0\Rap Finands.pdb
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\Rap Finands.exe
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\Rap Finands.deps.json
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\Rap Finands.runtimeconfig.json
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\Rap Finands.runtimeconfig.dev.json
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\Rap Finands.dll
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\Rap Finands.pdb
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.csprojAssemblyReference.cache
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.AssemblyInfoInputs.cache
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.AssemblyInfo.cs
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.csproj.CopyComplete
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.dll
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.pdb
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\obj\Debug\netcoreapp3.0\Rap Finands.genruntimeconfig.cache
+C:\Users\Kevin\source\repos\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\Rap_Finands\bin\Debug\netcoreapp3.0\bank.json

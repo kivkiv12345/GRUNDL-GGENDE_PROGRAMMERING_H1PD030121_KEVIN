@@ -1,12 +1,14 @@
 using System;
 
-namespace Rap_Finands {
-    class Transaktion {
+namespace Rap_Finands
+{
+    class Transaktion
+    {
         public string tekst;
         public float saldo;
         public float amount;
         public DateTime dato;
-        
+
     }
 }
 /** 

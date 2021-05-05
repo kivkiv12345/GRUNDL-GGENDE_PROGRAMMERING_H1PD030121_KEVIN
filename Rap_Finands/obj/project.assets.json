@@ -52,27 +52,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lkri\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Kevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lkri\\Documents\\Undervisningsmateriale\\GrundlæggendeProgrammering\\Fejlfinding\\Rap_Finands\\Rap Finands.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin\\source\\repos\\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\\Rap_Finands\\Rap Finands.csproj",
       "projectName": "Rap Finands",
-      "projectPath": "C:\\Users\\lkri\\Documents\\Undervisningsmateriale\\GrundlæggendeProgrammering\\Fejlfinding\\Rap_Finands\\Rap Finands.csproj",
-      "packagesPath": "C:\\Users\\lkri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lkri\\Documents\\Undervisningsmateriale\\GrundlæggendeProgrammering\\Fejlfinding\\Rap_Finands\\obj\\",
+      "projectPath": "C:\\Users\\Kevin\\source\\repos\\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\\Rap_Finands\\Rap Finands.csproj",
+      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin\\source\\repos\\GRUNDL-GGENDE_PROGRAMMERING_H1PD030121_KEVIN\\Rap_Finands\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\lkri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -83,6 +76,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
       },
@@ -94,6 +88,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",
@@ -133,7 +128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
